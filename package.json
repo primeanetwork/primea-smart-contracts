@@ -1,0 +1,16 @@
+{
+  "name": "primea-smart-contracts",
+  "version": "1.0.0",
+  "description": "Primea DEX and token contracts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:primeatestnet": "hardhat run scripts/deploy-all.ts --network primeatestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.20.2",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.10.6"
+  }
+}
